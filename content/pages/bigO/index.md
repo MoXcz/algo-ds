@@ -23,3 +23,7 @@ print(i)
 ```
 
 Big O es una unidad de medida utilizada en algoritmos para predecir la cantidad de cómputo necesario para ejecutar una operación. Esto es clave, ya que un algoritmo con una complejidad alta puede volverse ineficiente o inoperable a medida que los datos crecen.
+
+## Recursos
+
+1. Imagen de: https://www.bigocheatsheet.com/

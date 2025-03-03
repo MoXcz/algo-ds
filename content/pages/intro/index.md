@@ -44,3 +44,8 @@ Por ejemplo, en `{2, 4, 6, 8}`:
 
 1. Ordenar los datos (nota que si los datos ya estan ordenados nada cambia): `{2, 4, 6, 8}`
 2. Tomar los valores centrales (`4` y `6`) y calcular su media: `(4 + 6) / 2 = 5`
+
+## Recursos
+
+1. Imagen de: https://codigo-algoritmos.blogspot.com/
+2. Libro: *Introduction to Algorithms, fourth edition* por Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest y Clifford Stein.

@@ -1,1 +1,3 @@
 # Proximamente
+
+[< Regresar](/)

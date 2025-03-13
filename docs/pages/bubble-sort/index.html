@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Bubble Sort </title>
+    <link href="/algo-ds/index.css" rel="stylesheet">
+</head>
+
+<body>
+    <article>
+        <div><h1>Bubble Sort</h1><p><a href="/algo-ds/">< Regresar</a></p><p><img src="https://favtutor.com/resources/images/uploads/mceu_61632030011682402256084.png" alt=""></img></p><p>El algoritmo de ordenamiento <i>Bubble Sort</i> compara de manera iterativa los elementos adyacentes para decidir si deben intercambiarse de posición, de tal manera que, al finalizar, todos los elementos de la lista estarán en su posición adecuada según el criterio de ordenamiento utilizado.</p><p>Los pasos del algoritmo se pueden definir de una manera similar a la siguiente:</p><ol><li>Recorrer la lista comparando cada par de elementos adyacentes.</li><li>Si un elemento es mayor que el siguiente (o menor, según el criterio), intercambiarlos.</li><li>Repetir hasta que no haya más intercambios en una pasada completa.</li><li>La lista estará ordenada cuando no se realicen más intercambios.</li></ol><p>Este algoritmo tiene una complejidad de <code>O(n^2)</code>, ya que en el peor de los casos requiere realizar <code>n</code> pasadas sobre la lista, con dos iteraciones anidadas, para ordenar y verificar que no queden elementos desordenados.</p><p>En el caso de que la lista ya esté ordenada, el algoritmo solo realiza una única <i>pasada</i> para confirmar que los elementos están en su posición correcta.</p><pre><code>def bubble(nums):
+    cambio = True
+    n = len(nums)
+    while cambio:
+        cambio = False
+        for i in range(1, n):
+            if nums[i - 1] > nums[i]:
+                nums[i - 1], nums[i] = nums[i], nums[i - 1]
+                cambio = True
+        n -= 1
+    return nums</code></pre><p>Este ejemplo implementa <i>Bubble Sort</i> de menor a mayor en una lista de números.</p><h2>Recursos</h2><ol><li>Imagen de: https://favtutor.com/blogs/bubble-sort-python</li></ol></div>
+    </article>
+</body>
+
+</html>

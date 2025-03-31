@@ -7,6 +7,7 @@
 
 - [¿Para qué usar algoritmos de ordenamiento?](/pages/sort)
 - [Bubble Sort](/pages/bubble-sort)
+- [Selection Sort](/pages/selection-sort)
 - [Insertion Sort](/pages/insertion-sort)
 
 ¿Dudas? Contacta [aquí](/contact)

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Selection Sort </title>
+    <link href="/algo-ds/index.css" rel="stylesheet">
+</head>
+
+<body>
+    <article>
+        <div><h1>Selection Sort</h1><p><a href="/algo-ds/">< Regresar</a></p><p><img src="https://static.packt-cdn.com/products/9781785888731/graphics/image_13_007-1.jpg" alt=""></img></p><p><i>Selection Sort</i> es un algoritmo similar a <i>Bubble Sort</i> en el sentido de que realiza de manera iterativa intercambios entre elementos para acomodarlos en su posición ordenada.</p><p>La diferencia con <i>Bubble Sort</i> está en que <i>Selection Sort</i> utiliza un valor <code>min</code> para mantener el registro del índice del valor más pequeño encontrado durante cada iteración.</p><p>Los pasos del algoritmo son:</p><ol><li>Empezando desde el primer elemento de la lista, se intenta encontrar el valor más pequeño en el resto de la lista (de la posición actual hasta el final).</li><li>Intercambia el valor más pequeño encontrado con el valor de la posición actual.</li><li>Mover al siguiente elemento y repetir hasta que se haya recorrido toda la lista.</li><li>La lista estará ordenada cuando se haya pasado por todos los elementos.</li></ol><pre><code>def selection_sort(nums):
+    for i in range(len(nums)):
+        min_idx = i
+        for j in range(i + 1, len(nums)):
+            if nums[j] < nums[min_idx]:
+                min_idx = j
+        nums[i], nums[min_idx] = nums[min_idx], nums[i]
+    return nums</code></pre><h2>Recursos</h2><ol><li>Imagen de: <a href="https://subscription.packtpub.com/book/programming/9781785888731">Learning Functional Data Structures and Algorithms</a></li></ol></div>
+    </article>
+</body>
+
+</html>

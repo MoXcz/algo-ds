@@ -28,7 +28,7 @@ Elegir la estructura adecuada es clave para resolver problemas de forma rápida 
 - **Pilas (Stacks)**: Siguen el principio LIFO (último en entrar, primero en salir).
 - **Colas (Queues)**: Siguen el principio FIFO (primero en entrar, primero en salir).
 - **Grafos (Graphs)**: Representan relaciones entre objetos (nodos conectados por aristas).
-- **Árboles (Trees)**: Estructura jerárquica donde cada nodo puede tener hijos, muy útil para representar datos organizados.
+- **Árboles (Trees)**: Estructura jerárquica donde cada nodo puede tener hijos.
 
 ## ¿Por qué son importantes?
 

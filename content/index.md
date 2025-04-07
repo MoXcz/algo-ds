@@ -16,6 +16,7 @@
 ## Estructuras de Datos
 
 - [Introducción](/pages/ds/intro)
+- [Arreglos](/pages/ds/array)
 
 ¿Dudas? Contacta [aquí](/contact)
 

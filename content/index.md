@@ -1,14 +1,21 @@
 # Algoritmos y Estructuras de Datos
 
-- [Introducción](/pages/intro)
-- [Big O](/pages/bigO)
 
-### Algoritmos de Ordenamiento (Sorting)
+## Algoritmos
 
-- [¿Para qué usar algoritmos de ordenamiento?](/pages/sort)
-- [Bubble Sort](/pages/bubble-sort)
-- [Selection Sort](/pages/selection-sort)
-- [Insertion Sort](/pages/insertion-sort)
+- [Introducción](/pages/algo/intro)
+- [Big O](/pages/algo/bigO)
+
+#### Algoritmos de Ordenamiento (Sorting)
+
+- [¿Para qué usar algoritmos de ordenamiento?](/pages/algo/sort)
+- [Bubble Sort](/pages/algo/bubble-sort)
+- [Selection Sort](/pages/algo/selection-sort)
+- [Insertion Sort](/pages/algo/insertion-sort)
+
+## Estructuras de Datos
+
+- [Introducción](/pages/ds/intro)
 
 ¿Dudas? Contacta [aquí](/contact)
 

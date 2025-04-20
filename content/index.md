@@ -18,6 +18,7 @@
 - [Introducción](/pages/ds/intro)
 - [Arreglos](/pages/ds/array)
 - [Pilas](/pages/ds/stack)
+- [Colas](/pages/ds/queue)
 
 ¿Dudas? Contacta [aquí](/contact)
 

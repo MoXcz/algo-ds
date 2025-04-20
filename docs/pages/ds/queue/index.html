@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Cola (Queue) </title>
+    <link href="/algo-ds/index.css" rel="stylesheet">
+</head>
+
+<body>
+    <article>
+        <div><h1>Cola (Queue)</h1><p><a href="/algo-ds/">< Regresar</a></p><p>Una <b>cola</b> es una estructura de datos que sigue el principio <b>FIFO</b> (<i>First In, First Out</i>), es decir, el primer elemento en entrar es el primero en salir.</p><blockquote>Piensa en una fila para hacer el mandado: las personas se atienden en el orden en que llegaron.</blockquote><h2>Operaciones principales</h2><ul><li><code>enqueue</code> (agregar al final): <code>O(1)</code></li><li><code>dequeue</code> (eliminar del frente): <code>O(1)</code> en listas enlazadas, <code>O(n)</code> en arreglos</li><li><code>peek</code> (ver el frente sin eliminarlo): <code>O(1)</code></li><li><code>size</code> (tamaño de la cola): <code>O(1)</code></li></ul><p>Las operaciones en una cola son eficientes porque siempre ocurren en extremos opuestos: al frente o al final.</p><h2>Ejemplo visual (con arreglos)</h2><p>Supongamos que se tiene la siguiente cola vacía:</p><pre><code>[]</code></pre><h3>Agregar (<code>enqueue</code>)</h3><p>Se agregan (<code>enqueue</code>) elementos:</p><pre><code>[10]
+[10, 20]
+front -> [10, 20, 30] <- end</code></pre><p>Nota que el <code>10</code> fue el primero en entrar, por lo tanto, será el primero en salir.</p><h3>Eliminar (<code>dequeue</code>)</h3><p>Se elimina (<code>dequeue</code>) el primer elemento:</p><pre><code>[20, 30]</code></pre><p>Solo se elimina el elemento al frente (<code>10</code>), recorriendo los demás elementos si se usa un arreglo (<code>O(n)</code>).</p><h3>Ver (<code>peek</code>)</h3><p>Se obtiene (<code>peek</code>) el elemento al frente sin quitarlo:</p><pre><code>Frente = 20</code></pre><h3>Tamaño (<code>size</code>)</h3><p>Se obtiene (<code>size</code>) el número de elementos sin modificarlos:</p><pre><code>Tamaño = 2</code></pre><h2>¿Cuándo usar una cola?</h2><p>Las colas son útiles en situaciones donde se necesita:</p><ul><li>Procesar tareas en orden (como en una impresora).</li></ul></div>
+    </article>
+</body>
+
+</html>

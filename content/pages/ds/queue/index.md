@@ -8,8 +8,8 @@ Una **cola** es una estructura de datos que sigue el principio **FIFO** (*First 
 
 ## Operaciones principales
 
-- `enqueue` (agregar al final): `O(1)`
-- `dequeue` (eliminar del frente): `O(1)` en listas enlazadas, `O(n)` en arreglos
+- `enqueue` (agregar al final): `O(1)` en listas enlazadas, `O(n)` en arreglos
+- `dequeue` (eliminar del frente): `O(1)`
 - `peek` (ver el frente sin eliminarlo): `O(1)`
 - `size` (tamaño de la cola): `O(1)`
 

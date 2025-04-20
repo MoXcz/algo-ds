@@ -51,3 +51,6 @@ Se elimina el elemento en la posición 3 (el `30`):
 
 Nota que los elementos posteriores deben **desplazarse a la izquierda** para llenar el espacio (`O(n)`).
 
+## Recursos
+
+1. [Python Docs](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists): `append`, `insert`, `remove`, `sort`, `reverse`, etc.

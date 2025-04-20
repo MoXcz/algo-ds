@@ -15,7 +15,7 @@ Esto se debe a que, al eliminar o insertar un elemento en una posición que **no
 
 ## Ejemplo visual
 
-Supongamos que tenemos el siguiente arreglo:
+Supongamos que se tiene el siguiente arreglo:
 
 ```
 [10, 20, 30, 40]

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Pila (Stack) </title>
+    <link href="/algo-ds/index.css" rel="stylesheet">
+</head>
+
+<body>
+    <article>
+        <div><h1>Pila (Stack)</h1><p><a href="/algo-ds/">< Regresar</a></p><p>Una <b>pila</b> es una estructura de datos que sigue el principio <b>LIFO</b> (<i>Last In, First Out</i>), es decir, el último elemento en entrar es el primero en salir.</p><blockquote>Piensa en una pila de platos: solo se pueden remover los platos de la parte superior.</blockquote><h2>Operaciones principales</h2><ul><li><code>push</code> (agregar al tope): <code>O(1)</code></li><li><code>pop</code> (eliminar del tope): <code>O(1)</code></li><li><code>peek</code> (ver el tope sin eliminarlo): <code>O(1)</code></li><li><code>size</code> (tamaño de la pila): <code>O(1)</code></li></ul><p>Las operaciones en una pila son muy eficientes porque siempre ocurren en el mismo extremo: el tope.</p><h2>Ejemplo visual</h2><p>Supongamos que se tiene la siguiente pila vacía:</p><pre><code>[]</code></pre><h3>Agregar (<code>push</code>)</h3><p>Se agregan (<code>push</code>) elementos:</p><pre><code>[10]
+[10, 20]
+bottom -> [10, 20, 30] <- top</code></pre><p>Nota que el <code>30</code> es el último en entrar, por lo tanto, deberá ser el primero en salir.</p><h3>Eliminar (<code>pop</code>)</h3><p>Se quita (<code>pop</code>) el último elemento:</p><pre><code>[10, 20]</code></pre><p>Nota que solo se elimina el elemento en el tope (<code>30</code>), sin necesidad de desplazar los demás (<code>O(1)</code>).</p><h3>Ver (<code>peek</code>)</h3><p>Se obtiene (<code>peek</code>) el elemento en el tope sin quitarlo:</p><pre><code>Tope = 20</code></pre><h3>Tamaño (<code>size</code>)</h3><p>Se obtiene (<code>size</code>) el número de elementos sin modificarlos:</p><pre><code>Tamaño = 2</code></pre><h2>¿Cuándo usar una pila?</h2><p>Las pilas son útiles en casos donde se necesita:</p><ul><li>Deshacer acciones (como Ctrl+Z). Un ejemplo claro de esto es el historial de navegación (las flechitas que se ven arriba en un navegador). Más información sobre esto <a href="https://developer.mozilla.org/en-US/docs/Web/API/History/pushState">aquí</a>.</li><li>Evaluar expresiones (como en compiladores o calculadoras).</li></ul></div>
+    </article>
+</body>
+
+</html>

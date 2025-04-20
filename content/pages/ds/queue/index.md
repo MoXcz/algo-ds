@@ -66,4 +66,5 @@ Tamaño = 2
 Las colas son útiles en situaciones donde se necesita:
 
 - Procesar tareas en orden (como en una impresora).
+- Crear *buffers* (como en los eventos de un teclado, e.g., videojuegos).
 

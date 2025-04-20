@@ -24,6 +24,14 @@ h6 {
   margin-top: 24px;
   margin-bottom: 16px;
   text-shadow: 2px 2px 4px #000;
+  border-bottom: 1px solid #3c3c42;
+  padding-bottom: 0.3em;
+}
+
+h1:hover,
+h2:hover,
+h3:hover {
+  color: #f4a261;
 }
 
 h1 {
@@ -53,11 +61,19 @@ a {
 a:hover {
   color: #f4a261;
   border-color: #f4a261;
+  text-shadow: 0 0 4px #f4a261aa;
 }
 
 ul,
 ol {
   padding-left: 30px;
+  margin-bottom: 1em;
+}
+
+ul li::marker,
+ol li::marker {
+  color: #e9c46a;
+  font-weight: bold;
 }
 
 code {
@@ -66,6 +82,7 @@ code {
   color: #e9c46a;
   padding: 0.2em 0.4em;
   font-family: "Courier New", monospace;
+  box-shadow: 0 0 4px #00000088;
 }
 
 pre code {
@@ -78,18 +95,18 @@ pre {
   padding: 1em;
   overflow: auto;
   box-shadow: 2px 2px 6px #000;
+  margin-bottom: 1.5em;
 }
 
 blockquote {
   background-color: #2e2c35;
   border-left: 4px solid #8d99ae;
-  padding-left: 2em;
+  padding: 0.5em 1em;
   margin-left: 0;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  padding-right: 0.5em;
   color: #ddd;
   font-style: italic;
+  box-shadow: inset 0 0 6px #00000033;
+  border-radius: 4px;
 }
 
 img {
@@ -98,6 +115,7 @@ img {
   border-radius: 6px;
   border: 3px solid #3c3c42;
   box-shadow: 3px 3px 6px #000;
+  margin: 1em 0;
 }
 
 ::-webkit-scrollbar {
@@ -127,4 +145,16 @@ img {
 
 ::-webkit-scrollbar-corner {
   background: #1f1c25;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #3c3c42;
+  margin: 2em 0;
+  box-shadow: 0 0 2px #000000aa;
+}
+
+a:hover {
+  text-shadow: 0 0 6px #f4a261aa;
 }

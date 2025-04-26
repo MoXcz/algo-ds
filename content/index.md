@@ -6,12 +6,17 @@
 - [Introducción](/pages/algo/intro)
 - [Big O](/pages/algo/bigO)
 
-#### Algoritmos de Ordenamiento (Sorting)
+#### Algoritmos para Ordenar (Sorting)
 
 - [¿Para qué usar algoritmos de ordenamiento?](/pages/algo/sort)
 - [Bubble Sort](/pages/algo/bubble-sort)
 - [Selection Sort](/pages/algo/selection-sort)
 - [Insertion Sort](/pages/algo/insertion-sort)
+
+#### Algoritmos para Buscar (Search)
+
+- [Linear Search](/pages/algo/linear-search)
+- [Binary Search](/pages/algo/binary-search)
 
 ## Estructuras de Datos
 

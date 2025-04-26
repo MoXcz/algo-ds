@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Búsqueda Binaria (Binary Search) </title>
+    <link href="/algo-ds/index.css" rel="stylesheet">
+</head>
+
+<body>
+    <article>
+        <div><h1>Búsqueda Binaria (Binary Search)</h1><p><a href="/algo-ds/">< Regresar</a></p><p>Este algoritmo se basa en búsquedas por <i>mitades</i>, tomando en cuenta que la colección de elementos <i>debe estar ordenada</i>. Gracias a su característico método de búsqueda, su complejidad de tiempo es <code>O(log n)</code>.</p><pre><code>def binary_search(target, arr):
+    low = 0
+    high = len(arr) - 1
+    while low <= high:
+        median = (low + high) // 2
+        if arr[median] == target:
+            return True
+        elif arr[median] < target:
+            low = median + 1
+        else:
+            high = median - 1
+    return False</code></pre><p>El proceso de dividir en mitades surge al comparar si el elemento buscado se encuentra a la izquierda (menor) o a la derecha (mayor) del elemento actual. De esta manera, se eliminan rápidamente grandes cantidades de elementos:</p><p><code>1,000,000</code> → <code>500,000</code> → <code>250,000</code> → <code>125,000</code> → ...</p><blockquote><b>Nota</b>: Se recomienda utilizar algoritmos de ordenamiento cuya complejidad sea cercana a <code>O(n log n)</code>.</blockquote><h2>Recursos</h2><ol><li><a href="https://en.wikipedia.org/wiki/Binary_search">Definición en Wikipedia</a></li></ol></div>
+    </article>
+</body>
+
+</html>

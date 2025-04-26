@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Búsqueda Lineal (Linear Search) </title>
+    <link href="/algo-ds/index.css" rel="stylesheet">
+</head>
+
+<body>
+    <article>
+        <div><h1>Búsqueda Lineal (Linear Search)</h1><p><a href="/algo-ds/">< Regresar</a></p><p>Este algoritmo de búsqueda se basa, como su nombre lo indica, en un método <i>lineal</i>, comúnmente a través de iteraciones sobre un arreglo. Debido a la naturaleza lineal de la búsqueda, el algoritmo tiene una complejidad de tiempo <code>O(n)</code>.</p><pre><code>def linear_search(target, arr):
+    for value in arr:
+        if value == target:
+            return True
+    return False</code></pre><p>La única razón para considerar el uso de este algoritmo es cuando el número de datos es pequeño. Para conjuntos de datos con más de 10,000 elementos, probablemente sea mejor utilizar otro algoritmo de búsqueda, como <a href="/algo-ds/pages/algo/binary-search">búsqueda binaria</a>.</p><blockquote><b>Nota</b>: No es recomendado implementar este tipo de busqueda con listas enlazadas</blockquote><h2>Recursos</h2><ol><li><a href="https://en.wikipedia.org/wiki/Linear_search">Definición en Wikipedia</a></li></ol></div>
+    </article>
+</body>
+
+</html>

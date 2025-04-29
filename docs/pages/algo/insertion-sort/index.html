@@ -10,7 +10,13 @@
 
 <body>
     <article>
-        <div><h1>Insertion sort</h1><p><a href="/algo-ds/">< Regresar</a></p><p>wip</p></div>
+        <div><h1>Insertion sort</h1><p><a href="/algo-ds/">< Regresar</a></p><p>El algoritmo de ordenamiento <i>Insertion Sort</i> construye la lista ordenada de manera incremental: toma un elemento a la vez y lo inserta en la posición correcta respecto a los elementos previamente ordenados.</p><p>Los pasos del algoritmo se pueden definir de la siguiente manera:</p><ol><li>Comenzar desde el segundo elemento de la lista (suponiendo que el primer elemento ya está "ordenado").</li><li>Comparar el elemento actual con los anteriores y desplazar hacia la derecha aquellos que sean mayores (o menores, según el criterio).</li><li>Insertar el elemento actual en su posición adecuada.</li><li>Repetir hasta que todos los elementos hayan sido insertados en su lugar.</li></ol><p>Este algoritmo tiene una complejidad de <code>O(n^2)</code> en el peor de los casos (cuando la lista está en orden inverso), pero en el mejor de los casos (lista ya ordenada) su complejidad es <code>O(n)</code>, ya que solo realiza una comparación por elemento.</p><blockquote>Aunque no es eficiente para listas grandes, <i>Insertion Sort</i> es muy útil para listas pequeñas o casi ordenadas debido a su simplicidad y bajo costo de desplazamiento de elementos.</blockquote><pre><code>def insertion_sort(nums):
+    for i in range(len(nums)):
+        j = i
+        while j > 0 and nums[j - 1] > nums[j]:
+            nums[j], nums[j - 1] = nums[j - 1], nums[j]
+            j -= 1
+    return nums</code></pre><p>Este ejemplo implementa <i>Insertion Sort</i> de menor a mayor en una lista de números.</p></div>
     </article>
 </body>
 

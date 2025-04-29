@@ -35,4 +35,4 @@ Este ejemplo implementa _Bubble Sort_ de menor a mayor en una lista de números.
 
 ## Recursos
 
-1. Imagen de: https://favtutor.com/blogs/bubble-sort-python
+1. Imagen de [aqui](https://favtutor.com/blogs/bubble-sort-python)
